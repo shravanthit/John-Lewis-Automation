@@ -3,7 +3,7 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
         features = {"src/test/resources"},
-        tags = {"@LewisHomepage"},
+        tags = {"@shadowDomImplementation"},
         //dryRun = false,
         format = {
                 "pretty",
